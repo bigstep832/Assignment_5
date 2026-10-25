@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My profile</h1>
+    <form id="profileForm">
+    <p>
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+    </p>
+
+    <p>
+        <label for="birthYear">Birth Year:</label>
+        <input type="number" id="birthYear" required>
+    </p>
+
+    <button type="submit">Create - Update Profile</button>
+    </form>
+    <p id="profileResult"></p>
+    <h2>My hobbies</h2>
+
+    <ul id="hobbiesList"></ul>
+
+    <label for="hobbyInput">New hobby:</label>
+    <input type="text" id="hobbyInput">
+
+    <button type="button" id="addHobby">Add Item</button>
+    <button type="button" id="removeHobby">Remove Item</button>
+
+    <p id="hobbyCounter"></p>
+    <script src="script.js"></script>
+</body>
+</html>
